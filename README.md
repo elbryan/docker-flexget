@@ -1,4 +1,4 @@
-# cpoppema/docker-flexget
+# elbryan/docker-flexget
 
 Read all about FlexGet [here](http://www.flexget.com/#Description).
 
@@ -64,6 +64,10 @@ FlexGet is also able to connect with deluge using `deluge-common`, which can be 
 Please note: This Docker image does NOT run Deluge. Consider running a [Deluge Docker image](https://hub.docker.com/r/linuxserver/deluge/) alongside this one.
 
 For deluge to work you need to set `TORRENT_PLUGIN` environment variable to "deluge".
+
+**Subtitles plugin: subliminal**
+
+This container installs automatically subliminal plugin.
 
 **Daemon mode**
 
